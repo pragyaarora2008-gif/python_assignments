@@ -1,0 +1,19 @@
+#ASSIGNMENT-4 : to create an array and perform addition of two matrices
+
+import numpy as np
+a=np.array([[1,2,4], [4,5,6], [7,8,9]])
+b=np.array([[9,8,7], [6,5,4], [3,2,1]])
+res= a+b
+print(res)
+
+import numpy as np
+np.zeros(10) #create an array of 10 zeroes
+
+np.ones(10)
+np.ones(10)*5
+np.arange(10,51,2)
+np.arange(9).reshape(3,3) #reshapes to 3 cols and 3 rows
+np.eye(3) #identity matrix
+np.random.rand(1)
+np.random.randn(25)
+np.linspace(0,1,20)
