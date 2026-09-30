@@ -1,0 +1,13 @@
+#to check whether or not a triangle is a right-angled triangle using a fucntion
+def pytha(a,b,c):
+    if a*a+b*b==c*c:
+        print("right-angled")
+        return
+    else:
+        print("not a right angled triangle")
+        return
+print("Enter the sides")
+d=int(input())
+e=int(input())
+f=int(input())
+print(pytha(d,e,f))
